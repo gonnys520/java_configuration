@@ -11,10 +11,6 @@ import lombok.Data;
 public class MemberVO {
 
 
-	public MemberVO(DataSource dataSource) {
-		// TODO Auto-generated constructor stub
-	}
-
 	private String userid, userpw, username;
 	private boolean enabled;
 	private Date regdate, updatedate;
